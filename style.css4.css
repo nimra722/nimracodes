@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003566;
+    padding: 20px;
+    color: white;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li .btn {
+    background-color: #1EAE31;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.talk-to-us {
+    background-color: #1EAE31;
+    color: white;
+    text-align: left;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+form input,
+form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #003566;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #003566;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.abc{
+    background-color: #1EAE31;
+    color: white;
+    padding: 5opx;
+    text-align: center;
+    font-size: xx-large;
+
+}
